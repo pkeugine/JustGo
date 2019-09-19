@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="330dp"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:contentPadding="10dp"
+        card_view:cardPreventCornerOverlap="false">
+
+        <ImageView
+            android:id="@+id/addBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:contentDescription="@string/addbtn"
+            android:padding="15dp"
+            card_view:srcCompat="@android:drawable/ic_menu_add" />
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <TextView
+                android:id="@+id/tname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/tname"
+                android:textColor="#000000"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tstar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tstar"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tprice"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/treview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treview"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
