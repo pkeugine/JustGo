@@ -1,5 +1,6 @@
 package com.whewigo.justgo;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private LinearLayoutManager layoutManager;
     private CustomDialog customDialog;
+    private Button calendarButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        calendarButton = (Button) findViewById(R.id.calendarButton);
+        calendarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityCalendarView();
+            }
+        });
+
 //      세부 리스트
 //      ArrayList<Integer>[] subList = new ArrayList[4];
         subList = new ArrayList[5];
@@ -137,5 +148,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+    }
+
+    public void openActivityCalendarView() {
+        Intent intent = new Intent(this, CalendarView.class);
+        startActivity(intent);
     }
 }

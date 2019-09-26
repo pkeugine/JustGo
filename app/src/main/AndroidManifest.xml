@@ -15,6 +15,11 @@
         android:theme="@style/AppTheme"
         tools:replace="android:appComponentFactory">
         <activity
+            android:name=".menu_bar"
+            android:label="@string/title_activity_menu_bar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".CalendarView" />
+        <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

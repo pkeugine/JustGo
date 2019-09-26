@@ -24,4 +24,10 @@
 
     <include layout="@layout/content_main" />
 
+    <Button
+        android:id="@+id/calendarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="469dp"
+        android:text="Date" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
