@@ -6,6 +6,24 @@
   "commit": false,
   "contributors": [
     {
+      "login": "pkeugine",
+      "name": "Eugine Park",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/48251668?v=4",
+      "profile": "https://github.com/pkeugine",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "true-bird",
+      "name": "Hyunwoo Ju",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25261274?v=4",
+      "profile": "https://truebird.tech",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "eeeun-ji",
       "name": "eeeun-ji",
       "avatar_url": "https://avatars0.githubusercontent.com/u/50447682?v=4",
