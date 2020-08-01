@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/actiblock_back01"
+    tools:context=".detail.PathSearchActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/car_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparency_button"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            app:srcCompat="@drawable/button_car"
+            android:text="차"/>
+        <ImageButton
+            android:id="@+id/walk_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparency_button"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/button_walk"
+            android:text="도보"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tmap_path"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/actiblock_back01"
+    tools:context=".RecordInfoActivity">
+    <include
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        layout="@layout/view_title" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="4"
+            android:layout_marginTop="15dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="주소 "
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="전화번호 "
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:id="@+id/tel_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/additional_field"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="부가정보 "
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:id="@+id/additional_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="false"
+                    android:maxLines="4"
+                    android:scrollbars="vertical"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/desc_field"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="소개 "
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="false"
+                    android:maxLines="3"
+                    android:scrollbars="vertical"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/cost_field"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="사용금액 "
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+                <EditText
+                    android:id="@+id/cost"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:inputType="number"
+                    android:background="@drawable/transparency_button"
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="원 "
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/memo_field"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="메모 "
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+
+                <EditText
+                    android:id="@+id/memo"
+                    android:layout_width="256dp"
+                    android:layout_height="178dp"
+                    android:background="@drawable/transparency_button"
+                    android:gravity="top"
+                    android:maxLines="5" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutTmap"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:padding="0dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

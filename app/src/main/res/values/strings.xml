@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">JustGo</string>
+    <string name="app_name">어여가</string>
+    <string name="tmap_api_key">0d7d31d9-eb6b-4540-a1cc-864ca37b8bf8</string>
+    <string name="tour_api_key">oQCXdkrLI3yLcKih6dtV1QeH5XKwa0hXf9mUZH3RwMsUBjBxBa6ruEMxyLkK7bxcY2KbfkYcQvhpHeY9CXjUCw%3D%3D</string>
 </resources>

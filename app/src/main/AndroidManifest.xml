@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.whewigo.justgo">
+    package="com.pkeugine.whewigo">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -10,14 +12,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.pkeugine.whewigo.middleblock.MiddleblockActivity"></activity>
+        <activity android:name="com.pkeugine.whewigo.actiblock.ActiblockActivity" />
+        <activity android:name="com.pkeugine.whewigo.RecordInfoActivity" />
+        <activity android:name="com.pkeugine.whewigo.detail.PathSearchActivity" /> <!-- TmapKey 정보 -->
+        <meta-data
+            android:name="com.pkeugine.jhw.TmapKey"
+            android:value="@string/tmap_api_key" />
+        <meta-data
+            android:name="com.pkeugine.jhw.TourKey"
+            android:value="@string/tour_api_key" />
+        <activity android:name="com.pkeugine.whewigo.Main2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.pkeugine.whewigo.detail.DetailActivity" />
     </application>
 
 </manifest>
