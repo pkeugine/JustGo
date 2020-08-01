@@ -1,4 +1,7 @@
 # Just go
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 > Helps you schedule your trip by providing information about your nearby restaurants, entertainment, and accommodation based on your current location
 
 ![Dev][dev-image]
@@ -29,3 +32,22 @@
 
 <!-- Markdown link & img dfn's -->
 [dev-image]: https://img.shields.io/badge/Dev-Android-green
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/aloha0319"><img src="https://avatars1.githubusercontent.com/u/50447511?v=4" width="100px;" alt=""/><br /><sub><b>aloha0319</b></sub></a><br /><a href="https://github.com/pkeugine/JustGo/commits?author=aloha0319" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
