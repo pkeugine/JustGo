@@ -13,6 +13,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "true-bird",
+      "name": "Hyunwoo Ju",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25261274?v=4",
+      "profile": "https://truebird.tech",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
