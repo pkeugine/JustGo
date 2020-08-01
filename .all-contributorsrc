@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "aloha0319",
+      "name": "aloha0319",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50447511?v=4",
+      "profile": "https://github.com/aloha0319",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "JustGo",
+  "projectOwner": "pkeugine",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
