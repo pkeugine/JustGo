@@ -1,6 +1,6 @@
 # Just go
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-![Dev][dev-image] [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?)](#contributors-)
+![Dev][dev-image] [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > Helps you schedule your trip by providing information about your nearby restaurants, entertainment, and accommodation based on your current location
 
@@ -45,10 +45,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://truebird.tech"><img src="https://avatars1.githubusercontent.com/u/25261274?v=4" width="100px;" alt=""/><br /><sub><b>Hyunwoo Ju</b></sub></a><br /><a href="https://github.com/pkeugine/JustGo/commits?author=true-bird" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/eeeun-ji"><img src="https://avatars0.githubusercontent.com/u/50447682?v=4" width="100px;" alt=""/><br /><sub><b>eeeun-ji</b></sub></a><br /><a href="https://github.com/pkeugine/JustGo/commits?author=eeeun-ji" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/leejjin"><img src="https://avatars1.githubusercontent.com/u/43690969?v=4" width="100px;" alt=""/><br /><sub><b>YUJIN</b></sub></a><br /><a href="https://github.com/pkeugine/JustGo/commits?author=leejjin" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Kimbangg"><img src="https://avatars3.githubusercontent.com/u/49136186?v=4" width="100px;" alt=""/><br /><sub><b>Kimbangg</b></sub></a><br /><a href="https://github.com/pkeugine/JustGo/commits?author=Kimbangg" title="Code">💻</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
