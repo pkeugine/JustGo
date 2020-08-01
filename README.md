@@ -1,8 +1,8 @@
 # Just go
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-![Dev][dev-image] [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+![Dev][dev-image] [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-![Dev][dev-image]
+
 > Helps you schedule your trip by providing information about your nearby restaurants, entertainment, and accommodation based on your current location
 
 - Use GPS to provide information about accommodation, food, entertainment, and events around the area based on your current location.
