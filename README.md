@@ -1,6 +1,6 @@
 # Just go
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > Helps you schedule your trip by providing information about your nearby restaurants, entertainment, and accommodation based on your current location
 
@@ -43,6 +43,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/pkeugine"><img src="https://avatars0.githubusercontent.com/u/48251668?v=4" width="100px;" alt=""/><br /><sub><b>Eugine Park</b></sub></a><br /><a href="https://github.com/pkeugine/JustGo/commits?author=pkeugine" title="Code">💻</a></td>
+    <td align="center"><a href="https://truebird.tech"><img src="https://avatars1.githubusercontent.com/u/25261274?v=4" width="100px;" alt=""/><br /><sub><b>Hyunwoo Ju</b></sub></a><br /><a href="https://github.com/pkeugine/JustGo/commits?author=true-bird" title="Code">💻</a></td>
   </tr>
 </table>
 
