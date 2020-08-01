@@ -1,11 +1,10 @@
 # Just go
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+![Dev][dev-image] [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![Dev][dev-image]
 > Helps you schedule your trip by providing information about your nearby restaurants, entertainment, and accommodation based on your current location
 
-![Dev][dev-image]
 - Use GPS to provide information about accommodation, food, entertainment, and events around the area based on your current location.
 - Navigate the path from my location to that location and provide the estimated time required.
 - Plan your itinerary by confirming where you want to go.
